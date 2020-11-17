@@ -1,10 +1,42 @@
-body{
-
+.contentHome{
+  font-family: helvetica, arial, sans-serif;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-top: 5%;
+  
 }
 
-h1{
-  font-size: 40px;
+.contentHome a{
+  text-decoration: none;
+  color: #000000;
+}
+
+h1 {
+  margin-top: 5%;
+  color: #000000;
+  font-size: 25px;
+  font-family: helvetica, arial, sans-serif;
+   width: 60%;
   margin-left: auto;
-  margin-left: auto;
-  margin-top: 100px;
+  margin-right: auto;
+  
+}
+
+nav{
+  font-family: helvetica, arial, sans-serif;
+  margin-left: 70%;
+  
+  
+}
+
+nav a{
+  text-decoration: none;
+  padding: 20px;
+  color: #000000;
+}
+
+.notice h1{
+    color: #ffffff;
+  padding: 10px;
+  background-color: #ffff00;
 }
