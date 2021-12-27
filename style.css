@@ -603,6 +603,7 @@ video{
        
        transform: translateX(100%);
     transition: transform 0.5s ease-in;
+    overflow-x: hidden;
    }
 
    .navlinks a{
@@ -707,6 +708,10 @@ video{
     .tab img{
         box-shadow: 2px 2px 9px #00000056;
        
+    }
+
+    .tab a{
+        padding: 9px;
     }
 
     .aboutPage{
