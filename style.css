@@ -582,7 +582,8 @@ video{
 
 
 @media screen and (max-width:768px){
-   body{
+   html, body{
+       max-width: 100%;
        overflow-x: hidden;
    }
 
