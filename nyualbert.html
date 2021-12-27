@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+       
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+        <!-- font-family: 'Montserrat', sans-serif; -->
+
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎨</text></svg>">
+        <title>Nina Chu | NYU Albert</title>
+    </head>
+
+
+    <body>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><h1>Nina Chu</h1></a>
+            </div>
+
+            <ul class="navlinks">
+                <li><a href="index.html">work</a></li>
+                <li><a href="play.html">play</a></li>
+                <li><a href="about.html">about</a></li>
+            </ul>
+            <div class="burger">
+                <div class="lline1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+        <img class="main-img"; src="images/nyu-main.png" />
+
+        <h2>NYU Albert</h2>
+
+        <div class="content">
+
+        <section class="proj-info">
+            <div>
+                <h3>Role:</h3>
+                <h4>UX/UI Designer</h4>
+            </div>
+
+            <div>
+                <h3>Strategies:</h3>
+                <h4>User research, UX/UI Design, Prototyping</h4>
+            </div>
+
+            <div>
+                <h3>Tools Used:</h3>
+                <h4>Figma</h4>
+                
+            </div>
+
+            <div>
+                <h3>Timeline:</h3>
+                <h4>Nov 2021 - 4 Weeks</h4>
+            </div>
+
+        </section>
+
+        <section class="details">
+
+            <h3>Overview</h3>
+            <h6>In light of class enrollment season for spring classes, I noticed various user experience issues with NYU Albert. NYU Albert is the website students use to enroll for classes, check official grades, view degree progress, and see their school schedule. It even got to the point where I would overhear students complaining about the usability of the website. I decided to do a design sprint as a personal project to envision a more user friendly version of NYU Albert.</h6>
+
+            <h5>Problem Statement</h5>
+            <h6>Students at NYU are having difficulties searching for classes, viewing degree progress, and scheduling their classes efficiently. How can we make NYU Albert easier to read and more efficient?</h6>
+
+            <h3>Research</h3>
+            <h5>Survey Results</h5>
+            <h6>There were 27 responses to the survey from students of various majors and years.</h6>
+            <h6>
+                <ul>
+                    <li>The average answer was 4.6 when rating NYU Albert overall on a scale of 1-10.</li>
+                    <li>The average answer was 4.4 when rating the efficiency of NYU Albert on a scale of 1-10.</li>
+                    <li>The average answer was 5.3 when rating how difficult it is to find classes on a scale of 1-10.</li>
+                    <li>The average answer was 5 when rating how difficult it is to read their schedule on a scale of 1-10.</li>
+                </ul>
+                *All answers were rounded up*
+            </h6>
+
+            <img src="images/nyu-graph.png"/>
+
+            <h5>What are the current issues?</h5>
+            <h6>Students were also asked what specific issues they had when using NYU Albert. The problems that had numerous complaints were:</h6>
+            <h6>
+                <ul>
+                    <li>There are no back buttons. It takes you back to the beginning everytime you choose a class or want to go back, you have to start your search all over again.</li>
+                    <li>Screen is a small pop-up window that you can’t enlarge.</li>
+                    <li>You cannot see current classes and schedules to see if additional classes fit. You have to go back and forth if you forget or you have to write it down manually to see on the side.</li>
+                    <li>School schedule is very zoomed in and doesn’t zoom out, can’t see weekly schedule without scrolling.</li>
+                    <li>There is a lot of jumbled information on the degree progress page.</li>
+                    <li>A lot of scrolling to get to major’s classes from main course search page if your school starts with a later letter in the alphabet.</li>
+                    
+                </ul>
+            </h6>
+
+            <h3>Analyze</h3>
+            <h5>User Personas</h5>
+            <img src="images/nyu-persona.png"/>
+
+            <h5>Solutions</h5>
+            <h6>
+                <ul>
+                    <li>Add back buttons.</li>
+                    <li>Full size interface, less clutter so it is easier to read, less scrolling, more organized information.</li>
+                    <li>When selecting a class, display how that class lines up with the user’s current schedule and selected classes.</li>
+                    <li>Offer a full size, downloadable readable schedule.</li>
+                    <li>Disclose what requirements each class fulfils.</li>
+                    <li>Have users select school, then major, so the screen is less cluttered and the user does not have to scroll through every major from every school to find their major.</li>
+                </ul>
+            </h6>
+
+            <h5>User Flow</h5>
+            <h6>After analyzing the issues and solutions, I created a user flow chart of how users would navigate NYU Albert to accomplish their various goals.</h6>
+            <img src="images/nyu-flow.png"/>
+
+            <h3>Design</h3>
+            <h5>Design Guideline</h5>
+            <h6>I followed the <a href="https://www.nyu.edu/employees/resources-and-services/media-and-communications/styleguide/brand-support-services/website/graphic-visual-design.html">
+                NYU Design Guideline.</a></h6>
+
+            <h5>Before: Current NYU Albert UI/UX</h5>
+            <h6>This is a screen recording of the current NYU Albert and how the user selects courses.</h6>
+            <video width="100%" height="auto" controls>
+                <source src="images/nyu-current.mov" type="video/mp4">
+                <source src="images/nyu-current.mov" type="video/ogg">
+                    </video>
+            
+
+            <h5>After: Final Prototype</h5>
+            <h6>This is a screen recording of the prototype I designed on Figma that walks you through the process of searching through and adding courses.</h6>
+            <video width="100%" height="auto" controls>
+                <source src="images/nyu-proto.mov" type="video/mp4">
+                <source src="images/nyu-proto.mov" type="video/ogg">
+                    </video>
+
+                    <h5>Final Designs</h5>
+</section></div>
+
+        <div class="laptopP">
+            <img src="images/nyu-p1.png"/>
+            <img src="images/nyu-p2.png"/>
+            <img src="images/nyu-p3.png"/>
+            <img src="images/nyu-p4.png"/>
+            <img src="images/nyu-p5.png"/></div>
+
+       <div class="content"><div class="iphoneP">
+            <img src="images/nyu-ip1.png"/>
+            <img src="images/nyu-ip2.png"/>
+            <img src="images/nyu-ip3.png"/>
+            <img src="images/nyu-ip4.png"/>
+            <img src="images/nyu-ip5.png"/>
+            <img src="images/nyu-ip6.png"/>
+            <img src="images/nyu-ip7.png"/>
+            <img src="images/nyu-ip8.png"/>
+            <img src="images/nyu-ip9.png"/>
+            <img src="images/nyu-ip10.png"/></div>
+    
+        <section class="details">
+
+            <h3>Conclusion</h3>
+            <h6>Overall, this project has been a great experience. I thoroughly enjoyed tackling the usability issues and finding solutions for each problem. Feel free to give any feedback you have! Constant iteration is key.</h6>
+               
+
+
+            <div class="otherProj">
+            <h3>Other Projects:</h3></div></section>  
+
+                <div class="tab">
+                   <a href="100ui.html"><img src="images/tab-ui.png"/></a> 
+                   <a href="marketplaceall.html"><img src="images/tab-mp.png"/></a> 
+                </div>
+            
+            </div>
+
+                <!--
+                        .otherProj{
+    margin-top: 96px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.otherProj h3{
+    color: #000000;
+    font-size: 24px;
+}   
+                -->
+        
+    
+        <div class="footerText">
+            <h4>Let's get in touch!</h4></div>
+        
+       
+        
+            <div class="footer">
+               
+                     <div class="icons">
+                        <a href = "mailto: ninachu@nyu.edu"><img class="one"; src="images/email.png"/></a>
+                    <a href="https://www.linkedin.com/in/nina-chu-/" target="_blank"><img class="two"; src="images/linkedin.png"/></a>
+            </div> </div>
+    
+    
+
+
+     
+
+    <script src="app.js"></script>
+    </body>
+
+</html>
