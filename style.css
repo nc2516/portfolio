@@ -667,6 +667,10 @@ video{
     .overlay {
         border-radius: 5px;   
     }
+    
+    .text{
+     width: 80%;   
+    }
    
    .intro h4{
     margin-top: 16px;
