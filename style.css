@@ -664,7 +664,9 @@ video{
        align-items: flex-start;
    }
 
-   
+    .overlay {
+        border-radius: 5px;   
+    }
    
    .intro h4{
     margin-top: 16px;
