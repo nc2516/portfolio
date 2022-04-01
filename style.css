@@ -137,6 +137,30 @@ h6{
     margin-top: 8px;
 }
 
+.winsText{
+    margin-top: 128px;
+}
+
+
+.wins{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+}
+
+.winPic {
+    width: 80%;
+    height: auto;
+}
+
+.wins .container {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+
+
 .proj-info{
     margin-top: 40px;
     display: flex;
@@ -209,6 +233,8 @@ h6{
     position: relative;
 }
 
+
+
 .overlay{
     position: absolute;
     z-index: 2;
@@ -229,6 +255,7 @@ h6{
     object-fit: cover;
 
 }
+
 
 .text{
   position: absolute;
