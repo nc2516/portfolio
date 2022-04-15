@@ -676,6 +676,11 @@ video{
        margin-right: auto;
    }
 
+   .wins{
+    flex-direction: column;
+    
+}
+
    .mp{
        width: 90%;
        margin-left: auto;
